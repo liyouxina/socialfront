@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/Signout/welcome/welcome",
+    "pages/Signin/oldid/index/index",
+    "pages/Signin/oldid/find/find",
+    "pages/Signin/oldid/chats/chats",
+    "pages/Signin/oldid/me/me",
+    "pages/Signout/login/login",
+    "pages/Signout/phoneLogin/phoneLogin",
+    "pages/Signout/pwdLogin/pwdLogin",
+    "pages/Signout/pwdLogin/registry/registry",
+    "pages/Signout/pwdLogin/forgetpwd/forgetpwd",
+    "pages/Signout/pwdLogin/forgetpwd/setpwd/setpwd",
+    "pages/Signin/newid/chooseSex/chooseSex",
+    "pages/Signin/newid/information/information",
+    "pages/Signin/newid/faceAi/faceAi"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "rgb(235,100,70)",
+    "list": [
+      {
+        "iconPath": "/static/tabBar/日历.png",
+        "text": "邀约",
+        "pagePath": "pages/Signin/oldid/index/index"
+      },
+      {
+        "iconPath": "/static/tabBar/发现.png",
+        "text": "发现",
+        "pagePath": "pages/Signin/oldid/find/find"
+      },
+      {
+        "iconPath": "/static/tabBar/消息.png",
+        "text": "消息",
+        "pagePath": "pages/Signin/oldid/chats/chats"
+      },
+      {
+        "iconPath": "/static/tabBar/我的.png",
+        "text": "我的",
+        "pagePath": "pages/Signin/oldid/me/me"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,51 @@
+
+view {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.wen {
+	font-size: 35rpx;
+	margin-top: 250rpx;
+}
+.sexImage {
+	margin-top: 50rpx;
+	display: flex;
+	flex-direction: row;
+}
+.man,.women {
+	display: flex;
+	width: 160rpx;
+	height: 160rpx;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40rpx;
+	background-color: rgb(70, 73, 83);
+}
+.women {
+	margin-left: 60rpx;
+}
+.man_box ._span{
+	margin-top: 20rpx;
+}
+.women_box ._span {
+	margin-left: 60rpx;
+	margin-top: 20rpx;
+}
+.man image {
+	width: 100rpx;
+	height: 100rpx;
+}
+.women image {
+	width: 100rpx;
+	height: 100rpx;
+}
+.u-button {
+	margin-top: 120rpx;
+	background: rgb(235, 84, 71);
+	border: 1px solid rgb(235, 84, 71);
+	color: aliceblue;
+	font-size: 30rpx;
+	height: 80rpx;
+}
+

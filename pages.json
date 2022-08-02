@@ -1,0 +1,427 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/Signout/welcome/welcome",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+			"path": "pages/Signin/oldid/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/Signin/oldid/find/find",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/chats/chats",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/me/me",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/Signout/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff"
+					}
+				}
+            }   
+            
+        }
+        ,{
+            "path" : "pages/Signout/phoneLogin/phoneLogin",
+            "style" :                                                                                    
+            {
+               "app-plus": {
+               	"titleNView": {
+               		"backgroundColor": "#212330",
+               		"titleColor": "#ffffff",
+               		"titleText": "",
+               		"buttons": [
+               			{
+							"fontSize": "15rpx",
+               				"float": "right",
+               				"text": "密码登录",
+							"color": "#eb5044"
+		
+							
+               			}
+               		]
+               	}
+               }
+			}
+		}	
+            
+        ,{
+            "path" : "pages/Signout/pwdLogin/pwdLogin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signout/pwdLogin/registry/registry",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signout/pwdLogin/forgetpwd/forgetpwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找回密码",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signout/pwdLogin/forgetpwd/setpwd/setpwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/newid/chooseSex/chooseSex",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/newid/information/information",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/Signin/newid/faceAi/faceAi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "人脸识别",
+                "enablePullDownRefresh": false
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/newid/faceAi/face_error/face_error",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/newid/wechat/wechat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/index/release/release",
+            "style" :                                                                                    
+            {	
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton":false,
+						"backgroundColor": "#212330",
+						"titleColor": "#cfcfcf",
+						"titleText": "发布动态",
+						"buttons": [
+							{
+								"text": "\ue64f",
+								"fontSrc": "/static/icomoon.ttf"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/index/release/choose_tag/choose_tag",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#212330",
+						"autoBackButton": true,
+						"titleText": "选择标签",
+						"titleColor": "#cfcfcf",
+						"buttons": [
+							{
+								"text": "完成",
+								"color": "#939393",
+								"fontSize": "30upx"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/chats/chatdetail/chatdetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/me/dynamic/dynamic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleText": "我的动态",
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/me/recharge/recharge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleText": "我的钱包",
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff",
+						"buttons": [
+							{
+								"text": "\ue9c1",
+								"fontSrc": "/static/icomoon.ttf",
+								"fontSize": "40upx"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/me/recharge/recharge_record/recharge_record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleText": "充值记录",
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/me/vip/vip",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleText": "会员",
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff",
+						"buttons": [
+							{
+								"text": "\ue9c1",
+								"fontSrc": "/static/icomoon.ttf",
+								"fontSize": "40upx"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/me/vip/vip_record/vip_record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleText": "购买记录",
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/Signin/oldid/me/invite/invite",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleText": "邀请好友",
+						"autoBackButton": true,
+						"backgroundColor": "#212330",
+						"titleColor": "#ffffff",
+						"buttons": [
+							{
+								"text": "邀请码",
+								"color": "#eb5044",
+								"fontSize": "15"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#eeeeee",
+		"backgroundColor": "rgb(33, 35, 48)",
+		"selectedColor": "rgb(235,100,70)",
+		"list": [{
+				"iconPath": "/static/tabBar/yaoyue_off.png",
+				"text": "邀约",
+				"pagePath": "pages/Signin/oldid/index/index",
+				"selectedIconPath":"/static/tabBar/yaoyue_on.png"
+			},
+			{	
+				"iconPath": "/static/tabBar/faxian_off.png",
+				"text": "发现",
+				"pagePath": "pages/Signin/oldid/find/find",
+				"selectedIconPath":"/static/tabBar/faxian_on.png"
+			},
+			{
+				"iconPath": "/static/tabBar/xiaoxi_off.png",
+				"text": "消息",
+				"pagePath": "pages/Signin/oldid/chats/chats",
+				"selectedIconPath":"/static/tabBar/xiaoxi_on.png"
+			},
+			{
+				"iconPath": "/static/tabBar/wode_off.png",
+				"text": "我的",
+				"pagePath": "pages/Signin/oldid/me/me",
+				"selectedIconPath":"/static/tabBar/wode_on.png"
+			}
+		]
+	},
+	"easycom": {
+	  "autoscan": true,
+	  "custom": {
+	    "uni-(.*)": "./uni_modules/uview-ui/components/uni-$1/uni-$1.vue" // 匹配components目录内的vue文件
+	  }
+	}
+}

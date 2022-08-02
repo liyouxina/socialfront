@@ -1,0 +1,1 @@
+<view fade="{{true}}" duration="1150" class="data-v-ab2bf3e4"><image src="./bg.png" class="data-v-ab2bf3e4"></image><view class="text data-v-ab2bf3e4"><u--image vue-id="ba518690-1" width="60px" height="60px" src="./logistic-logo.png" shape="circle" class="data-v-ab2bf3e4" bind:__l="__l"></u--image><label class="_span data-v-ab2bf3e4">社交聊天</label></view></view>
